@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     vid_stream = pafy.new(url)
     video = vid_stream.getbest(preftype="mp4")
-    save_frame(video, "save")
+    save_frame(video, "saves")
 
     # video_paths = glob("videos/*")
     # save_dir = "save"
